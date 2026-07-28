@@ -7,6 +7,9 @@
     scroll-behavior: smooth;
     list-style: none;
 }
+body{
+overflow-x: hidden;
+}
 header{
     position: fixed;
     top: 1rem;
@@ -214,8 +217,10 @@ section{
 }
 .projects-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .project-card{
 padding: 3rem 2rem;
@@ -229,6 +234,9 @@ border: 2px solid black;
 border-radius: 3rem;
 cursor: pointer;
 transition: 0.3s ease-in-out;
+width: 100%;
+max-width: 350px;
+margin: 0 auto;
 }
 .project-card:hover{
     background-color: black;
