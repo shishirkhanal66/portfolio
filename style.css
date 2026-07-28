@@ -189,7 +189,7 @@ section{
 .grid-card:hover{
     transform: scale(1.02);
     background-color: black;
-    columns: white;
+    color: white;
 }
 .grid-card i{
     font-size: 1.5rem;
