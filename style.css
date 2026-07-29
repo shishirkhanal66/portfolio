@@ -133,9 +133,13 @@ section{
     color:transparent;
     font-size: 2rem;
 }
-.button-group{
+.button-group {
     display: flex;
     gap: 1rem;
+}
+.button-group .button{
+    color: black;
+    text-decoration: none;
 }
 .button{
     border-radius: 3rem;
