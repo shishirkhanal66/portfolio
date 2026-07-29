@@ -26,6 +26,11 @@ header{
     border-radius: 3rem;
     z-index: 1000;
 }
+a.visit {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
 .logo{
     color: white;
     font-size: 1.3rem;
