@@ -176,6 +176,9 @@ section{
     font-weight: 600;
     margin-bottom: 3rem;
 }
+.socials a{
+    color : black;
+}
 .experience-info{
     display: flex;
     align-items: center;
